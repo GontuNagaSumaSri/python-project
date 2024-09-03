@@ -1,0 +1,92 @@
+{% load static %}
+{% block body %}
+{% include 'header.html'%}
+
+<div class="container" style="margin-top: 50px;">
+    <h2 class="text-center" style="font-size: 50px;">Business</h2>
+    <p class="text-center" style="font-size: 20px;color: slategray;">
+       "1.2     Statement of the Problem
+
+Over time, scholars have investigated the nexus between teamwork and the performance of organization from different standpoint. Subsequently, with the current reality in the corporate world, it has become essential more than ever before for every organization that yearns for optimal performance to utilize the concept of teamwork.1.3     Objectives of the Study
+
+This study assesses the contribution of teamwork to the performance of organization. This is with a view to examining the relevance of achieving effectiveness in teamwork via proper employee perception. The specific objectives of this study are to:
+
+(i)  identify the mechanisms of teamwork in an organizational setting;
+
+(ii)  examine the effect of teamwork on organizational performance in non-profit organization; and
+
+(iii)  evaluate the impacts of employee perception towards the effectiveness of teamwork.
+
+1.4     Research Questions
+
+1.  What are the mechanisms of teamwork in an organizational setting?
+
+2.  What are the effects of teamwork on performance in non-profit organization?
+
+3.  What are the impacts of employee perception on the effectiveness of teamwork?"
+        <p class="text-center" style="font-size: 20px;color: rgb(124, 154, 184);">
+            "1.7     Scope of the Study
+
+This research work will be conducted on the tie between teamwork and performance of selected non-profit organizations in Lagos state. The study will use data between year 2017 and 2021 so as to have a range of figures sufficient to establish a claim.
+
+1.8     Limitations of the Study
+
+Financial constraints happen to be a major factor against the successful execution of this research work. Also, there appears to be a limit to the level of information the respondents are willing to divulge. Notwithstanding, due diligence is pursued to ensure that those lapses do not have a deficient bearing on the outcome of this study."</p>
+
+
+    <!-- carousel start-->
+    <div id="demo" class="carousel slide" data-ride="carousel"
+    style = "margin-top : 1px">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+          <li data-target="#demo" data-slide-to="5"></li>
+        <li data-target="#demo" data-slide-to="6"></li>
+
+
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active mb-3">
+          <img src="{% static 'images/bus2.jpg' %}"  width="100%" height="400">
+        </div>
+        <div class="carousel-item mb-3">
+          <img src="{% static 'images/bus1.jpg' %}"  width="100%" height="400">
+        </div>
+        <div class="carousel-item mb-3">
+          <img src="{% static 'images/bus2.jpg' %}"  width="100%" height="400">
+        </div>
+          <div class="carousel-item mb-3">
+          <img src="{% static 'images/bus1.jpg' %}"  width="100%" height="400">
+        </div>
+          <div class="carousel-item mb-3">
+          <img src="{% static 'images/bus2.jpg' %}"  width="100%" height="400">
+        </div>
+        <div class="carousel-item mb-3">
+          <img src="{% static 'images/bus1.jpg' %}"  width="100%" height="400">
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo"
+      data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!--carousel end-->
+
+    </div>
+
+
+     {% endblock %}

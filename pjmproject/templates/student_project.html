@@ -1,0 +1,68 @@
+{% load static %}
+{% block body %}
+{% include 'header.html'%}
+<h1>Projects</h1>
+<h4><label class="container">All
+    <h1><input type="checkbox" checked="checked"></h1>
+  <span class="checkmark"></span>
+</label></h4>
+
+<h4><label class="container">Facedetection using AI-CSE
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+  <h4><label class="container">e-authentication-CSE
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+   <h4> <label class="container">5 speed gearbox mechanism-MECH
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+    <h4><label class="container">Design of v8 engine-MECH
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+    <h4><label class="container">IOT projects
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+
+
+<h4><label class="container">other
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+
+
+
+div class="card-deck-wrapper">
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="static/images/cse1.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">CSE</h4>
+
+          <a href="resume_details" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="static/images/mech.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">MECH</h4>
+
+          <a href="resume_details" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="static/images/ece.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">ECE</h4>
+
+          <a href="resume_details" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {% endblock %}

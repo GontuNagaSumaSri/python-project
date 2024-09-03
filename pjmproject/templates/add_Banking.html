@@ -1,0 +1,87 @@
+{% load static %}
+{% block body %}
+{% include 'header.html'%}
+
+<div class="container" style="margin-top: 50px;">
+    <h2 class="text-center" style="font-size: 50px;">Banking </h2>
+    <p class="text-center" style="font-size: 20px;color: slategray;">"STATEMENT OF THE PROBLEM
+
+Basically, the research work is designed to provide answers to the following fundamental questions as regard to the problems that are facing the banking system. The following are the statement of research problems.
+
+What are the current state of diffusions and problems of the bank in adopting electronic banking system?
+
+What are the major development in informant technology that are affecting or bound to affect the growth of e-banking industry?
+
+How are the banks ready to carryout the requirements of electronic banking in their three banking operations?"
+        <p class="text-center" style="font-size: 20px;color: rgb(124, 154, 184);">
+            " OBJECTIVE OF THE STUDY
+
+Besides, the study would attempt to investigate the role of e-banking services in the banking system in Nigeria. This study would also affect the Nigeria banking system. Thus the main objective of this study are as follows.
+
+To investigate the degree of e-banking.
+
+To determine the degree of acceptance of the e-banking services.
+
+To compare traditional baking services with electronic banking.
+
+To investigate the benefit and challenges of E-banking system in Nigeria.
+
+To determine the factors that hinder proper functioning of E-banking.Online Banking: After fulfilling the necessary condition of automated online banking is no doubt important commitment to e-banking that a banking institution, can make. Online banking basically allows a customer to transact business in any branch irrespective of branch his/her account is domiciled. In many nations, online banking is gradually beginning to encroach into the banking terrain all over the world."</p>
+
+
+    <!-- carousel start-->
+    <div id="demo" class="carousel slide" data-ride="carousel"
+    style = "margin-top : 1px">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+          <li data-target="#demo" data-slide-to="5"></li>
+        <li data-target="#demo" data-slide-to="6"></li>
+
+
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active mb-3">
+          <img src="{% static 'images/bank2.jpg' %}"  width="100%" height="400">
+        </div>
+        <div class="carousel-item mb-3">
+          <img src="{% static 'images/bank1.jpg' %}"  width="100%" height="400">
+        </div>
+        <div class="carousel-item mb-3">
+          <img src="{% static 'images/bank2.jpg' %}"  width="100%" height="400">
+        </div>
+          <div class="carousel-item mb-3">
+          <img src="{% static 'images/bank1.jpg' %}"  width="100%" height="400">
+        </div>
+          <div class="carousel-item mb-3">
+          <img src="{% static 'images/bank2.jpg' %}"  width="100%" height="400">
+        </div>
+        <div class="carousel-item mb-3">
+          <img src="{% static 'images/bank1.jpg' %}"  width="100%" height="400">
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo"
+      data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!--carousel end-->
+
+    </div>
+
+
+     {% endblock %}

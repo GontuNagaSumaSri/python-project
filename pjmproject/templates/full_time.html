@@ -1,0 +1,71 @@
+{% load static %}
+{% block body %}
+{% include 'header.html'%}
+<h1>Projects</h1>
+<h4><label class="container">All
+    <h1><input type="checkbox" checked="checked"></h1>
+  <span class="checkmark"></span>
+</label></h4>
+
+<h4><label class="container">Agricultural
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+  <h4><label class="container">Architectural
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+   <h4> <label class="container">Marketing
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+    <h4><label class="container">Mini projects
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+    <h4><label class="container">Educational projects
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+   <h4> <label class="container">It software-projects
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+
+<h4><label class="container">other
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label></h4>
+
+
+
+div class="card-deck-wrapper">
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="static/images/my4.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Easy level</h4>
+
+          <a href="add_Resume" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="static/images/my3.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Medium level</h4>
+
+          <a href="klp" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="static/images/my5.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Difficult</h4>
+
+          <a href="klp" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {% endblock %}
